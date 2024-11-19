@@ -17,7 +17,7 @@ const HomePage = () => {
         title="Nouveau départ sans mastering"
       />
        <VideoPlayer
-        src="/videos/demo-instrument.mp4"
+        src="/videos/wredgis-essai.mp4"
         title="Tutoriel : Comment jouer cet instrument"
       />
     </main>
