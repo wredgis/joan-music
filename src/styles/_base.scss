@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $color-black;
+    color: $color-gray;
+    font-family: $font-main;
+  }
+  
+  h1, h2, h3 {
+    color: $color-blue;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $color-gray;
+    &:hover {
+      color: $color-blue;
+    }
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    background-color: $color-blue;
+    color: white;
+    padding: $spacing-small $spacing-medium;
+    border-radius: 4px;
+  
+    &:hover {
+      background-color: darken($color-blue, 10%);
+    }
+  }
+  

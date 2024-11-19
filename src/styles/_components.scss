@@ -1,0 +1,18 @@
+.audio-player {
+    background-color: lighten($color-black, 5%);
+    border: 1px solid $color-gray;
+    border-radius: 8px;
+    padding: $spacing-medium;
+    margin-top: $spacing-medium;
+  
+    h3 {
+      font-size: 1.25rem;
+      margin-bottom: $spacing-small;
+    }
+  
+    button {
+      font-size: 1rem;
+      margin-top: $spacing-small;
+    }
+  }
+  
